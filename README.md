@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Iniciando (Create React App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este diretório contém a aplicação frontend criada com Create React App (CRA). Abaixo estão os scripts mais comuns para desenvolvimento, testes e build.
 
-## Available Scripts
+## Scripts disponíveis
 
-In the project directory, you can run:
+No diretório do projeto (`aya/`), você pode executar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa a aplicação em modo de desenvolvimento.
+Abra http://localhost:3000 para visualizar no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página irá recarregar quando você fizer alterações e erros de lint aparecerão no console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o runner de testes em modo interativo (watch).
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Gera uma versão otimizada para produção na pasta `build`.
+Os arquivos serão minificados e prontos para deploy.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Aviso: esta operação é irreversível. Ao ejetar, as configurações (webpack, Babel, ESLint etc.) serão copiadas para o projeto e você terá controle total sobre elas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Você não precisa usar `eject` para começar; a configuração padrão serve bem para a maioria dos casos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Saiba mais
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Documentação do Create React App:
+https://facebook.github.io/create-react-app/docs/getting-started
 
-## Learn More
+Documentação do React:
+https://reactjs.org/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Seções úteis (em inglês):
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Code splitting: https://facebook.github.io/create-react-app/docs/code-splitting
+- Analisando o tamanho do bundle: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Progressive Web App: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Configuração avançada: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Deployment: https://facebook.github.io/create-react-app/docs/deployment
+- Troubleshooting (build minify): https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Code Splitting
+## Notas específicas deste projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Esta pasta (`aya/`) é o frontend React do projeto TJBAScrapper. Para instruções de como rodar o projeto inteiro (frontend + serviços na raiz), consulte o `README.md` na raiz do repositório.
+- Certifique-se de instalar as dependências dentro de `aya/` antes de rodar os scripts:
 
-### Analyzing the Bundle Size
+```powershell
+cd aya
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
+Se precisar, posso atualizar este README com instruções mais detalhadas (deploy, variáveis de ambiente específicas, exemplos de uso) — diga o que prefere.
 ### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
