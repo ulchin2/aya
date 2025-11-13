@@ -61,11 +61,12 @@ const HomePage = () => {
             <h2 className="section-title">COMO FUNCIONA A NOSSA PESQUISA?</h2>
             <div className="description-text">
               <p>
-                TLorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has beenLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been
+                A pesquisa utiliza agentes de inteligência artificial para compreender o contexto e o significado das consultas dos usuários, indo além das palavras-chave.
+Quando uma busca é feita, o sistema interpreta a intenção da pergunta, localiza as informações mais relevantes em suas fontes de dados e gera uma resposta clara e contextualizada.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                Os agentes trabalham de forma colaborativa  alguns são responsáveis por entender o pedido, outros por buscar e filtrar informações, e um agente final por organizar e apresentar o resultado.
+Isso permite que o usuário obtenha respostas precisas, resumidas e personalizadas, em vez de apenas uma lista de links ou documentos.
               </p>
             </div>
           </div>
