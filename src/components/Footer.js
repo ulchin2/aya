@@ -5,7 +5,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <a href="#" className="footer-link">Dúvidas? Clique aqui.</a>
+        <button
+          type="button"
+          className="footer-link"
+          onClick={() => { window.location.href = '/'; }}
+        >
+          Dúvidas? Clique aqui.
+        </button>
         
         <div className="footer-brand">
           <img 
