@@ -1,0 +1,77 @@
+.results-main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.filters-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.filter-button {
+  background: #E4F1FF;
+  border: none;
+  border-radius: 24px;
+  color: #005ABA;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.filter-button:hover {
+  background: #CAE5FF;
+}
+
+.filter-active {
+  background: #CAE5FF;
+}
+
+.dropdown-icon {
+  width: 17px;
+  height: 16px;
+}
+
+.results-header {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.results-count {
+  color: #5A5B5D;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.results-count strong {
+  font-weight: 800;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .filters-section {
+    flex-direction: column;
+  }
+  
+  .filter-button {
+    width: 100%;
+    justify-content: center;
+  }
+}

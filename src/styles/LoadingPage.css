@@ -1,0 +1,42 @@
+.loading-main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.loading-icon {
+  width: 198px;
+  height: 198px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.loading-text {
+  color: #5A5B5D;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+  font-weight: 400;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+}

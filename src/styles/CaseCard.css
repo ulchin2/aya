@@ -1,0 +1,56 @@
+.case-card {
+  background: #F1F5F9;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1276px;
+  margin: 0 auto;
+}
+
+.case-card-header {
+  background: #CAE5FF;
+  border-radius: 12px 12px 0 0;
+  padding: 2rem;
+}
+
+.case-card-title {
+  color: #404040;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: clamp(1.25rem, 2.5vw, 2.25rem);
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.case-card-content {
+  padding: 2rem;
+}
+
+.case-card-ementa {
+  color: #404040;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.case-card-date {
+  color: #404040;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .case-card-header,
+  .case-card-content {
+    padding: 1.5rem;
+  }
+  
+  .case-card-ementa {
+    font-size: 1rem;
+  }
+}

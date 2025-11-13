@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+}
+
+.dev-navigation {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dev-navigation button {
+  background: #005ABA;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.dev-navigation button:hover {
+  background: #004A9A;
+}
+
+@media (max-width: 768px) {
+  .dev-navigation {
+    bottom: 0.5rem;
+    right: 0.5rem;
+    flex-direction: column;
+  }
+  
+  .dev-navigation button {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
