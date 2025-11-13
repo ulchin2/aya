@@ -56,5 +56,5 @@ npm install
 npm start
 ```
 
-Se precisar, posso atualizar este README com instruções mais detalhadas (deploy, variáveis de ambiente específicas, exemplos de uso) — diga o que prefere.
+
 ### Advanced Configuration
